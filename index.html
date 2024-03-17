@@ -143,7 +143,10 @@
             el: ".swiper-pagination",
             clickable: true
           },
-          zoom: true, // Enable zooming
+           zoom: {
+    maxRatio: 5, // Maximum zoom ratio
+    toggle: true, // Toggle zooming by clicking on slide
+  },
           mousewheel: true, // Enable mousewheel scrolling
           keyboard: {
             enabled: true, // Enable keyboard navigation
