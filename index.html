@@ -137,15 +137,13 @@
 
       function renderImages(files) {
         var mySwiper = new Swiper(".swiper-container", {
+          zoom: true,
           direction: "vertical",
           loop: true,
           pagination: {
             el: ".swiper-pagination",
             clickable: true
           },
-           zoom: {
-    maxRatio: 5, // Maximum zoom ratio
-    toggle: true, // Toggle zooming by clicking on slide
   },
           mousewheel: true, // Enable mousewheel scrolling
           keyboard: {
