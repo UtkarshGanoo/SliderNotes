@@ -111,7 +111,6 @@
     </div>
   </div>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="https://unpkg.com/panzoom@9.2.4/index.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       // const apiUrl = 'http://localhost:3000/api/images/standard1/maths'; // Adjust the URL as per your API endpoint
@@ -160,14 +159,6 @@
           swiperSlide.classList.add('swiper-slide');
           swiperSlide.innerHTML = `<img src="${imageUrl}" alt="Image">`;
           document.getElementById('swiperWrapper').appendChild(swiperSlide);
-
-          // Initialize panzoom on each image element
-          const imgElement = swiperSlide.querySelector('img');
-          panzoom(imgElement, {
-            maxScale: 3, // Maximum zoom scale
-            contain: 'outside', // Ensure the entire image fits within the container
-          });
-
           mySwiper.update(); // Update Swiper after adding a new slide
         });
       }
