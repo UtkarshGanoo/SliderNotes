@@ -154,54 +154,20 @@ document.addEventListener("DOMContentLoaded", function() {
         speechSynthesis.speak(currentUtterance);
     }
   
-//     // Function to pause speech
-//     function pauseSpeech() {
-//         if (currentUtterance) {
-//             speechSynthesis.pause();
-//         }
-//     }
-  
-//     // Function to resume speech
-//     // function resumeSpeech() {
-//     //     if (currentUtterance) {
-//     //         speechSynthesis.resume();
-//     //     }
-//     // }
-//   function resumeSpeech() {
-//     if (currentUtterance) {
-//         // Restart speech from the paused position
-//         currentUtterance.onend = function() {
-//             currentUtterance = new SpeechSynthesisUtterance(currentUtterance.text.substring(currentUtterance.position));
-//             currentUtterance.lang = 'en-US';
-//             currentUtterance.volume = 1;
-//             currentUtterance.rate = 1;
-//             currentUtterance.pitch = 1;
-//             speechSynthesis.speak(currentUtterance);
-//         };
-
-//         speechSynthesis.resume();
-//     }
-// }
     // Function to pause speech
-function pauseSpeech() {
-    if (currentUtterance) {
-        speechSynthesis.pause();
+    function pauseSpeech() {
+        if (currentUtterance) {
+            speechSynthesis.pause();
+        }
     }
-}
-
-// Function to resume speech
-function resumeSpeech() {
-    if (currentUtterance) {
-        // Store the current position before stopping speech
-        const currentPosition = currentUtterance.position;
-        stopSpeech(); // Stop the current speech
-
-        // Create a new utterance starting from the last position
-        const textToSpeak = currentUtterance.text.substring(currentPosition);
-        speakText(textToSpeak);
-        isSpeaking = true;
+  
+    // Function to resume speech
+    function resumeSpeech() {
+        if (currentUtterance) {
+            speechSynthesis.resume();
+        }
     }
-}
+  
     // Function to stop speech
     function stopSpeech() {
         if (currentUtterance) {
