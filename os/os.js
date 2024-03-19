@@ -162,12 +162,27 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   
     // Function to resume speech
-    function resumeSpeech() {
-        if (currentUtterance) {
-            speechSynthesis.resume();
-        }
+    // function resumeSpeech() {
+    //     if (currentUtterance) {
+    //         speechSynthesis.resume();
+    //     }
+    // }
+  function resumeSpeech() {
+    if (currentUtterance) {
+        // Restart speech from the paused position
+        currentUtterance.onend = function() {
+            currentUtterance = new SpeechSynthesisUtterance(currentUtterance.text.substring(currentUtterance.position));
+            currentUtterance.lang = 'en-US';
+            currentUtterance.volume = 1;
+            currentUtterance.rate = 1;
+            currentUtterance.pitch = 1;
+            speechSynthesis.speak(currentUtterance);
+        };
+
+        speechSynthesis.resume();
     }
-  
+}
+    
     // Function to stop speech
     function stopSpeech() {
         if (currentUtterance) {
