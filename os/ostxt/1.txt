@@ -1,0 +1,35 @@
+<h1>Java Code Sample Image</h1>
+
+<br/>
+
+<p class="speak"> There are different types of Batch Operating systems:
+
+Simple Batched System: This type of batch operating system is the most basic and has no direct communication between users.
+
+Multiplexed Batch System: This type of batch operating system allows multiple users to use it at the same time.
+
+Time-Shared Batch System: This type of batch operating system shares the resources among users, meaning that each user gets a specific amount of time to use the resources.
+
+Advantages of Batch Operating System:
+The advantages of the batch operating system are:
+
+– There is no direct communication between users, meaning that there is no need for a dedicated communication line.
+
+– It is easy to use and does not require much maintenance.
+
+– It is very efficient in terms of resource usage. 
+
+Disadvantages of Batch Operating System:
+The disadvantages of the batch operating system are:
+
+– It can be slow due to the fact that users need to wait for their turn to use the resources.
+
+– It can be difficult to manage multiple users.
+
+– If one user is not done with their work, it can hold up the entire system.
+
+Conclusion
+The Batch operating system is a very efficient way to use resources and it has a lot of advantages. However, it does have a few disadvantages that need to be taken into account. Overall, it is a great option for businesses or organizations that require multiple users to access the same resources. Therefore, if you are looking for a way to improve the efficiency of your system, then a batch operating system may be the right option for you.
+
+</p>
+<img src="image.png"  class="center">

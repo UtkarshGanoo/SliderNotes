@@ -1,0 +1,12 @@
+<h1>Access Modifier:</h1>
+<br/>
+<p class="speak"> Defines the access type of the method i.e. from where it can be accessed in your application. In Java, there are 4 types of access specifiers: 
+public: Accessible in all classes in your application.
+protected: Accessible within the package in which it is defined and in its subclass(es) (including subclasses declared outside the package).
+private: Accessible only within the class in which it is defined.
+default (declared/defined without using any modifier): Accessible within the same class and package within which its class is defined.
+The return type: The data type of the value returned by the method or void if it does not return a value.
+Method Name: The rules for field names apply to method names as well, but the convention is a little different.
+Parameter list: Comma-separated list of the input parameters that are defined, preceded by their data type, within the enclosed parentheses. If there are no parameters, you must use empty parentheses ().
+Exception list: The exceptions you expect the method to throw. You can specify these exception(s).
+Method body: It is the block of code, enclosed between braces, that you need to execute to perform your intended operations.</p>

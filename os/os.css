@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Hide scrollbar */
+}
+
+.container-fluid {
+  padding-top: 0px;
+  display: flex;
+}
+
+.sidebar {
+  /* Sidebar styles go here */
+}
+
+.swiper-container {
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  padding-top: 15px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 18px;
+  background: #9ccff0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  pointer-events: none; /* Disable mouse events on images */
+}
+
+/* Media query for smaller devices (such as phones) */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; /* Hide the sidebar on mobile devices */
+  }
+}
+
+
+.image-background {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+}
+
+.text-content {
+  /* Other styles */
+  /* height: 80vh; Set the height to 80% of the viewport height */
+  position: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20%; /* Adjust margin from top */
+  margin-bottom: 10%; /* Adjust margin from bottom */
+  background: transparent;
+  border: 2px solid rgb(254, 254, 254);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  background-color: #41FDFE;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  word-wrap: break-word;
+}
+
+.text-content p {
+  max-height: 4.5em; /* Approximately 100 characters */
+  overflow: hidden;
+}
+.text-content img {
+  margin-top: 15%;
+  max-width: 10%; /* Set maximum width to 100% of the parent container */
+  height: auto; /* Maintain aspect ratio */
+  pointer-events: none; /* Disable mouse events on the image */
+}
+/* Style for the play, pause, and stop buttons */
+.controls button {
+  padding: 8px 16px;
+  margin: 0 8px;
+  margin-bottom: 2%;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.controls button:active {
+  background-color: #004a99; /* Dark blue color when button is clicked */
+}
+
+.controls button:focus {
+  outline: none; /* Remove default focus outline */
+}
+
+
+/* CSS for the modal */
+.modal-content {
+  max-width: 100%; /* Ensure modal content doesn't exceed viewport width */
+}
+
+.modal-body img {
+  max-width: 100%; /* Fit image width to modal width */
+  height: auto; /* Maintain aspect ratio */
+  pointer-events: none; /* Disable mouse events on the image */
+}

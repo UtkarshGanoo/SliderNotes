@@ -1,0 +1,7 @@
+<h1>Welcome To SliderNotes !!</h1>
+<h2>"Our effort is to provide you quality content according to your syllabus"</h2>
+
+<h3>"It is our endeavor to provide quality content for your revisions during exam time"</h3>
+
+<pre>                        <h4>SwipeUP for notes!</h4>                          </pre>
+<img src="down.png" alt="Paris" class="center">

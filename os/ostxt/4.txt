@@ -1,0 +1,4 @@
+<h1>What is Java?</h1>
+<p class="speak">Developed by Sun Microsystems in 1995, Java is a highly popular, object-oriented programming language. This platform independent programming language is utilized for Android development, web development, artificial intelligence, cloud applications, and much more.
+
+In this tutorial, we will cover everything from the basics of Java syntax to advanced topics like object-oriented programming and exception handling. So, by the end of this tutorial, you will have a strong understanding of Java and be ready to start writing your own Java applications. So let’s get started on this comprehensive Java programming tutorial!</p>

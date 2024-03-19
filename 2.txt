@@ -1,0 +1,30 @@
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #007bff;
+        }
+    </style>
+
+    <p><b>Select Your Subject:</b></p>
+    <ul>
+        <li><a href="/os/os.html">Operating System</a></li>
+        <li><a href="article2.html">Computer Organization</a></li>
+        <li><a href="article3.html">Software Engineering</a></li>
+    </ul>
+
+    <p><u>More Coming Soon........</u></p>
+    

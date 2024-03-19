@@ -1,0 +1,8 @@
+<h1>
+What are the benefits of the Batch Operating System?
+</h1> 
+<br/>
+<p class="speak">What are the benefits of the Batch Operating System?
+One of the key benefits of a Batch Operating System is that it can handle multiple users simultaneously. This makes it perfect for big projects with lots of separate tasks to be completed. By keeping all users in their own batches, the BOS prevents any direct communication between them – meaning no accidental interruptions or delays.
+
+Another advantage of a Batch OS is that it can handle large files more efficiently than a standard operating system. This is because the BOS breaks down all tasks into smaller, more manageable chunks which can be processed one at a time. As a result, the overall speed of the computer is improved and users don’t have to wait as long for their files to be processed.</p>

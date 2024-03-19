@@ -1,0 +1,36 @@
+<h1>Classes and Objects Explained</h1>
+
+<p class="speak">A **class** in object-oriented programming serves as a blueprint or prototype for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of a similar type will share. This allows you to create multiple objects with the same characteristics and functionality, without duplicating code.</p>
+
+<p>Here's a breakdown of a class declaration:</p>
+
+<ul>
+  <li>**Modifiers:** A class can be declared as `public` (accessible from anywhere) or have the default access level (accessible within the same package).
+  <li>**Class Name:** The name should start with a capital letter by convention and be descriptive of the object it represents.
+  <li>**Superclass (Optional):** If the class inherits from another class (parent class), the `extends` keyword is used followed by the parent class name.
+  <li>**Interfaces (Optional):** A class can implement multiple interfaces, which define a set of methods that the class must implement.
+  <li>**Body:** The class body is enclosed in curly braces `{}` and contains the following elements:
+    <ul>
+      <li>**Attributes:** Variables that store data specific to each object instance.
+      <li>**Methods:** Functions that define the object's behavior and can operate on its attributes or interact with other objects.
+    </ul>
+</ul>
+
+<h1>Object: The Building Block</h1>
+
+<p class="speak">An **object** is an instance of a class. It represents a real-world entity or concept with its own unique state and behavior. Objects interact with each other by invoking methods.</p>
+
+<p>An object is characterized by these key elements:</p>
+
+<ul>
+  <li>**State:** Represented by the object's attributes (variables) that hold its data. These attributes define the object's properties.
+  <li>**Behavior:** Represented by the object's methods, which are functions that define how the object interacts with the world. These methods define the object's response to events or interactions.
+  <li>**Identity:** Each object has a unique identifier (reference) that distinguishes it from other objects. This allows objects to interact with each other by reference.
+</ul>
+
+<h1>Methods: Reusable Code Blocks</h1>
+
+<p class="speak">A **method** is a collection of statements that performs a specific task. It can optionally return a value to the code that called it. Methods promote code reusability, as you can define the functionality once and then invoke it from different parts of your program. In Java, every method must belong to a class.</p>
+
+<p>By effectively using classes, objects, and methods, you can create well-structured, maintainable, and reusable object-oriented programs.</p>
+
